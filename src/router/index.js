@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import moishe from '@/components/HelloWorld'
+import productPage from '@/components/productPage'
+import productList from '@/components/productList'
+import cartPage from '@/components/cartPage'
 
 Vue.use(Router)
 
@@ -8,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'moishe',
-      component: moishe
+      name: 'productList',
+      component: productList
     }
   ]
 })
