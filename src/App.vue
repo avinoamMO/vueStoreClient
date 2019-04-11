@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+     <nav>
+      <router-link to="/">productList</router-link>
+      <router-link to="/productPage">productPage</router-link>
+      <router-link to="/cartPage">cartPage</router-link>
+    </nav>
     <router-view/>
   </div>
 </template>

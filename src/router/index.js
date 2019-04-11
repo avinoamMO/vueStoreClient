@@ -12,6 +12,16 @@ export default new Router({
       path: '/',
       name: 'productList',
       component: productList
+    },
+    {
+      path: '/cartPage',
+      name: 'cartPage',
+      component: cartPage
+    },
+    {
+      path: '/productPage',
+      name:'productPage',
+      component: productPage
     }
   ]
 })
